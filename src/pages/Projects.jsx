@@ -1,9 +1,9 @@
 import { Link, useSearchParams } from "react-router-dom";
-import { projects } from "/src/constants";
 import { Activity, useEffect, useState } from "react";
 import Container from "../component/Container";
 import ModalForm from "../component/ModalForm";
 import FilterForm from "../component/FilterForm";
+import { projects } from "../constants";
 
 const Projects = () => {
   const [data, setData] = useState(projects);
