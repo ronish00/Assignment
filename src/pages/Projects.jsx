@@ -1,5 +1,5 @@
 import { Link, useSearchParams } from "react-router-dom";
-import { projects } from "../constants";
+import { projects } from "/src/constants";
 import { Activity, useEffect, useState } from "react";
 import Container from "../component/Container";
 import ModalForm from "../component/ModalForm";
